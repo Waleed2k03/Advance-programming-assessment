@@ -1,0 +1,11 @@
+print("Hello, user!")
+n_name=("What is your name?")
+name=input(n_name)
+print(name)
+age=input("what is your age")
+print(age)
+print(f"It is good to meet you {name.title()}")
+print("The length of your name is:")
+number=int(input())
+old=int(age) + 1
+print("you will be" + str(old) + "this year") 
